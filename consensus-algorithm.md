@@ -21,9 +21,11 @@ Round 1 starts with each node looping through each of its accounts and running a
 
 For each account it can run a VRF using data from the previous block to produce an output or "lottery ticket".
 
-A threshold is set, and each account whose VRF outputs a pseudorandom value below that threshold is selected as a "leader".
+A threshold is set, and each account whose VRF outputs a pseudorandom value below that threshold is selected as a "leader". $^{ten\ inches\ high}$ 
 
-Each leader then propagates a message to the network and other nodes verify that the account was indeed selected.
+This group is known as the "Selected Verifiers" or SV$^{r}$.
+
+Each leader from SV$^{r}$ then propagates a message to the network and other nodes verify that the account was indeed selected.
 
 As there are multiple leaders, multiple proposal messages circulate among the network of nodes and the lowest block proposal is propagated.
 
@@ -33,18 +35,8 @@ Round 2 is very similar to round 1, except this time the lottery is run (using t
 
 The committee is the group of participants who are chosen to validate the proposed block.
 
-Each committee member is given a weighted vote dependent on their token stake, and a quorum is achieved.
+Each committee member is given a weighted vote dependent on their token stake.
+
+They then message their weighted vote for the best proposal and receive other nodes votes and a quorum is achieved.
 
 This is then repeated a second time with a second committee at which point the block is finalised.
-
-
-
-
-
-
-
-<!-- - Round 1: Cryptographic Sortition is used to randomly and secretly select a round "leader" who is privileged with the responsibility of authoring the next block.
-- Round 2: A secret and random committee is selected to validate the integrity of the leaders new block via Algorand's Byzantine Agreement Protocol.
-- Round 3: Round 2 is repeated with a new committee, the block is validated and finalised. -->
-
-

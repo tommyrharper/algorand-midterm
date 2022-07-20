@@ -8,6 +8,17 @@ Goal: Evaluate the blockchain structure of this project; name at least two thing
 - What is the anatomy of a block in this system?
 - What is the consensus algorithm that is used? How does it work?
 
+## White paper notes
+
+6.3 The Actual Protocol Algorand ′2
+
+pg 60
+
+## How to super and subscript
+
+SV$^{r}$
+SV$_{r}$
+
 ## Consensus Algorithm
 
 Algorand is a distributed system will multiple nodes.
@@ -92,8 +103,6 @@ Each round multiple leaders will be selected, as there will only be set a thresh
 Each leader goes through a round of communication using VRF to prove they are the leader.
 
 The leader with the lowest block proposal value (hash of the block) will "win" the lottery. "Lowest block protocol".
-
-![](2022-07-19-18-43-39.png)
 
 #### Round 2
 
