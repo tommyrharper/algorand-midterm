@@ -1,13 +1,13 @@
 # Block Anatomy
 
-At a high level (as described in the whitepaper), a block in algorand consists of the following parts:
+At a high level (as described in the whitepaper), a block in Algorand consists of the following parts:
 - r - The round number.
 - PAY$^{r'}$ - The set of payments for that round.
 - Q$^{r}$ - The Quantity Seed - a provably unpredictable and not influentiable quantity, used to derive via Cryptographic Sortition the leader for each block and the committee members for each round.
 - H(B$^{r}$) - The hash of the previous block.
 - CERT$^{r}$ - The block certificate provided by the set of voters or the committee.
 
-In Algorand actual implementation however, within a block you will see the following components:
+In Algorand's actual implementation however, within a block you will see the following components:
 
 - `Hash` - A hash for the current block.
 - `PreviousBlockHash` - A hash of the previous block.
