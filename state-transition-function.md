@@ -26,7 +26,7 @@ Where `℘` the payment is the signature by user `i` of their public key, the pa
 
 For a particular state transition, the total set of payments is defined as PAY$^{r}$, all the payments for that round.
 
-A given payment ℘ is valid if its amount `a` is less than or equal to a$_{i}$$^{r}$ (the amount for that user in that round)
+A given payment ℘ is valid if its amount `a` is less than or equal to a$_{i}$ $^{r}$ (the amount for that user in that round)
  and it does not appear in any previously finalised payset - PAY$^{r'}$
 when r′ < r.
 
