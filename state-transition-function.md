@@ -41,10 +41,3 @@ A payset P (the collection of payments for a given round) is considered valid fo
 When a new block is proposed, the proposer takes the current state of the system, finds the maximal valid payset, applies all given transactions in said payset and updates the user balances accordingly to generate the new system state.
 
 This is then validated by each committee member before being certified into a new block.
-
-
-
-
-
-
-
