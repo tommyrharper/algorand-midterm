@@ -12,7 +12,7 @@ We can describe the state in the block further as follows:
 
 S$^{r}$ = { (i, a$_{i}$ $^{(r)}$, ... ) : i ∈ PK$^{r}$ }
 
-Where i is a particular user, a$_{i}$$^{(r)}$ is amount for their account and PK$^{r}$ is the set of all public keys with balances for this round.
+Where i is a particular user, a$_{i}$ $^{(r)}$ is amount for their account and PK$^{r}$ is the set of all public keys with balances for this round.
 
 Hence the state transition function updates for each block the set of public keys PK$^{r}$ stored within the state and their according balances, based on the transactions included in the previous block.
 
