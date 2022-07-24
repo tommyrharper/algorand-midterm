@@ -21,7 +21,7 @@ Round 1 starts with each node looping through each of its accounts and running a
 
 For each account it can run a VRF using data from the previous block to produce an output or "lottery ticket".
 
-A threshold is set, and each account whose VRF outputs a pseudorandom value below that threshold is selected as a "leader". $^{ten\ inches\ high}$ 
+A threshold is set, and each account whose VRF outputs a pseudorandom value below that threshold is selected as a "leader".
 
 This group is known as the "Selected Verifiers" or SV$^{r}$.
 
