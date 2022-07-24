@@ -18,6 +18,8 @@ pg 60
 
 https://medium.com/insatiableminds/dissecting-algorand-e962f48f8c72#:~:text=The%20ledger%20uses%20SQLite%20database,lightweight%2C%20and%20fault%2Dtolerant.
 
+https://www.youtube.com/watch?v=_u0lJsXky7Ys
+
 
 ## How to super and subscript
 

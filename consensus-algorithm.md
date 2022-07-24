@@ -29,8 +29,6 @@ Each leader from SV$^{r}$ then propagates a message to the network and other nod
 
 ![](2022-07-24-14-09-34.png)
 
-A soft vote now begins.
-
 As there are multiple leaders, multiple proposal messages circulate among the network of nodes and the lowest block proposal is certified and propagated.
 
 ![](2022-07-24-14-10-30.png)
