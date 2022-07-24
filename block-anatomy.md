@@ -1,6 +1,6 @@
 # Block Anatomy
 
-At a high level (as described in the whitepaper), a block in Algorand can be described as follows:
+At a high level (as described in the whitepaper), a block B$^{r}$ in Algorand can be described as follows:
 
 B$^{r}$ = ( r, PAY$^{r}$, Q$^{r}$, H(B$^{r-1}$), CERT$^{r}$ )
 
