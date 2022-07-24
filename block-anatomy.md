@@ -7,7 +7,7 @@ At a high level (as described in the whitepaper), a block in Algorand consists o
 - H(B$^{r}$) - The hash of the previous block.
 - CERT$^{r}$ - The block certificate provided by the set of voters or the committee.
 
-In Algorand's actual implementation however, within a block you will see the following components:
+In Algorand's official implementation however, within a block you will see the following components:
 
 - `Hash` - A hash for the current block.
 - `PreviousBlockHash` - A hash of the previous block.
