@@ -14,6 +14,8 @@ Goal: Evaluate the blockchain structure of this project; name at least two thing
 
 pg 60
 
+pg 12 -> stf
+
 ## Links
 
 https://medium.com/insatiableminds/dissecting-algorand-e962f48f8c72#:~:text=The%20ledger%20uses%20SQLite%20database,lightweight%2C%20and%20fault%2Dtolerant.
