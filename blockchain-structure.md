@@ -75,7 +75,7 @@ The other is KMD (Key Manager Daemon) which handles all interactions with spendi
 
 ### Network Communication
 
-All messages in Algorand are encoded using MessagePack a binary serialization format that allows exchanges in languages like JSON.
+All messages in Algorand are encoded using MessagePack, a binary serialization format that allows exchanges in languages like JSON.
 
 The network operates in a mesh network using WebSockets over HTTP (TCP).
 
