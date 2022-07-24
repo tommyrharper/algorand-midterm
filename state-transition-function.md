@@ -10,7 +10,7 @@ The round is block number, and hence S$^{r}$ is the state for that block.
 
 We can describe the state in the block further as follows:
 
-S$^{r}$ = {(i, a$_{i}$ $^{(r)}$, ... ) : i ∈ PK$^{r}$}
+S$^{r}$ = { (i, a$_{i}$ $^{(r)}$, ... ) : i ∈ PK$^{r}$ }
 
 Where i is a particular user, a$_{i}$$^{(r)}$ is amount for their account and PK$^{r}$ is the set of all public keys with balances for this round.
 
