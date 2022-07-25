@@ -323,7 +323,7 @@ The main way Algorand protects against threats is by leveraging proof-of-stake t
 
 #### 4.2.1 Byzantine Generals Problem
 
-With Algorands proof-of-stake consensus, it assumes that 66% or more of the network participants are honest. If 33% of the participants, or more specifically nodes were dishonest, a Byzantine attack becomes possible. 
+With Algorands proof-of-stake consensus, it assumes that more than 66% of the network participants are honest. If 33% of the participants, or more specifically nodes were dishonest, a Byzantine attack becomes possible. 
 
 #### 4.2.2 51% attack
 
