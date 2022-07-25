@@ -396,7 +396,7 @@ There is also a standalone REST API Data Store using PostgresSQL. This is called
 
 It is connected using an Algod process which runs on Archival nodes. These can be queried using the various SDKs that Algorand provide.
 
-![](https://github.com/tommyrharper/algorand-midterm/raw/master/2022-07-24-13-49-48.png)
+![](./2022-07-24-13-49-48.png)
 
 Here is an example of using the python SDK to query the last 1000 transactions that exceed 100 microAlgos:
 
@@ -427,7 +427,7 @@ The smart contracts can either be written in TEAL directly, or in pyTeal which g
 
 In TEAL there are always two programs - the Approval Program and the Clear Program. The Approval Program handles most of the business logic and the Clear Program handles closing the accounts.
 
-![](https://github.com/tommyrharper/algorand-midterm/raw/master/2022-07-24-14-05-21.png)
+![](./2022-07-24-14-05-21.png)
 
 ### 5.3 Block Anatomy
 
@@ -488,11 +488,11 @@ This group is known as the "Selected Verifiers" or SV$^{r}$.
 
 Each leader from SV$^{r}$ then propagates a message to the network and other nodes verify that the account was indeed selected.
 
-![](https://github.com/tommyrharper/algorand-midterm/raw/master/2022-07-24-14-09-34.png)
+![](./2022-07-24-14-09-34.png)
 
 As there are multiple leaders, multiple proposal messages circulate among the network of nodes and the lowest block proposal is certified and propagated.
 
-![](https://github.com/tommyrharper/algorand-midterm/blob/master/2022-07-24-14-10-30.png)
+![](./2022-07-24-14-10-30.png)
 
 #### Round 2-3 - Block Certification
 
@@ -504,11 +504,11 @@ Each committee member is given a weighted vote dependent on their token stake.
 
 They then message their weighted vote for the best proposal and receive other nodes votes and a quorum is achieved.
 
-![](https://github.com/tommyrharper/algorand-midterm/blob/master/2022-07-24-14-15-25.png)
+![](./2022-07-24-14-15-25.png)
 
 This is then repeated a second time with a second committee at which point the block is finalised.
 
-![](https://github.com/tommyrharper/algorand-midterm/raw/master/2022-07-24-14-18-47.png)
+![](./2022-07-24-14-18-47.png)
 
 At this point if a Quorum has not been achieved, the network will enter recovery mode.
 
