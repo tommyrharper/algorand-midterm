@@ -289,7 +289,7 @@ Algorand is a blockchain that comes with many promises regarding liveness, lack 
 
 #### 4.1.1 Liveness and DOS attacks
 
-That the blockchain is always adding more transactions and the service will not be interrupted.
+Liveness means that the blockchain is always adding more transactions and the service will not be interrupted.
 
 Algorand governors/validators earn block rewards for authoring/confirming blocks, providing economic incentives to those who approve transactions. In theory, this should lead to a constant stream of finalised blocks. While the service is constant, averaging 1,000TPS with an average block time of 4.5 seconds, this constant stream of “mathematically forkless”transactions also opens the door for attackers to spam the system with minimally sized transactions, at a rate of ~1,000TPS or greater, to effectively DoS the system for a price. 
 
