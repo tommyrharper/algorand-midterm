@@ -154,7 +154,7 @@ Ephemeral keys can also be implemented without using identity-based signatures, 
 
 To improve the Byzantine Agreement algorithm's speed, Algorand uses cryptographic sortition to choose a small subset of the users to become verifiers. In this case, for each block a new set of verifiers is randomly selected, aiming to avoid concentration of power. 
 
-They use cryptographic function to automatically determine, from the previous block Br-1, a leader, in charge of proposing the new block and the verifier set. Nevertheless, information regarding the previous block is not enough to ensure security, as it is in the past and, therefore, anyone can know the last non-influenciable quantity Qr−1 contained in Br−1 must be known too. 
+They use cryptographic function to automatically determine, from the previous block Br-1, a leader, in charge of proposing the new block and the verifier set. Nevertheless, information regarding the previous block is not enough to ensure security, as it is in the past and, therefore, anyone can know the last non-influenciable quantity Qr−1 contained in Br−1.
 
 The algorithm works as follows:
 
