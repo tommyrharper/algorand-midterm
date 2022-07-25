@@ -287,9 +287,9 @@ Algorand is a blockchain that comes with many promises regarding liveness, lack 
 
 That the blockchain is always adding more transactions and the service will not be interrupted.
 
-Algorand governors/validators earn block rewards for authoring/confirming blocks, providing economic incentives to those who approve transactions. In theory, this should lead to a constant stream of finalised blocks. While the service is constant, averaging 1,000TPS with an average block time of 4.5 seconds[1], this constant stream of “mathematically forkless”[A] transactions also opens the door for attackers to spam the system with minimally sized transactions, at a rate of ~1,000TPS or greater, to effectively DoS the system for a price. 
+Algorand governors/validators earn block rewards for authoring/confirming blocks, providing economic incentives to those who approve transactions. In theory, this should lead to a constant stream of finalised blocks. While the service is constant, averaging 1,000TPS with an average block time of 4.5 seconds, this constant stream of “mathematically forkless”transactions also opens the door for attackers to spam the system with minimally sized transactions, at a rate of ~1,000TPS or greater, to effectively DoS the system for a price. 
 
-It would only cost 21.6$ per minute to deliver a volume based DoS to the network, based upon an algo price of 0.35$ [2] and a transaction fee of 0.001 ALGO$ per transaction[3].
+It would only cost 21.6$ per minute to deliver a volume based DoS to the network, based upon an algo price of 0.35$ and a transaction fee of 0.001 ALGO$ per transaction.
 
 For MinTF = minimum transaction fee =  0.001Algo,
 MaxTS = maximum transactions per second 1000, AlgoUSD = algo price in dollars 0.36USD, Algorand's cost permute can be calculated as follows:
@@ -299,13 +299,13 @@ MaxTS = maximum transactions per second 1000, AlgoUSD = algo price in dollars 0.
 
 #### 4.1.2 Fairness
 
-Fairness in this context can be defines as a "blockchain with no systemic discrimination that is against the rules of the protocol". Algorand uses a Proof-of-Stake model, and attempts to chose random users based upon stake to produce blocks. By the time a block producer is “revealed”, the block is already produced.[4] Whilst not “against the rules of the protocol”, Algorand offers systemic discrimination as a feature, such as Role Based Asset Control (RBAC).[5]
+Fairness in this context can be defines as a "blockchain with no systemic discrimination that is against the rules of the protocol". Algorand uses a Proof-of-Stake model, and attempts to chose random users based upon stake to produce blocks. By the time a block producer is “revealed”, the block is already produced. Whilst not “against the rules of the protocol”, Algorand offers systemic discrimination as a feature, such as Role Based Asset Control (RBAC).
 
 #### 4.1.3 Censorship-resistance
 
 Censorship-resistance can be defines in this context as "no individual actor or coalition can prevent the access of 	    	   another to the system".
 
-Algorand offers censorship as part of its core technology offerings. While censorship-resistance is possible assuming that at least 2/3 of the nodes in the network are honest , it can be considered a bold assumption due to the fact the majority of the 		 $ALGO tokens were pre-mined and distributed to the centralised group Algorand, and continues to be distributed to that same group through a distribution schedule).[6] 
+Algorand offers censorship as part of its core technology offerings. While censorship-resistance is possible assuming that at least 2/3 of the nodes in the network are honest , it can be considered a bold assumption due to the fact the majority of the 		 $ALGO tokens were pre-mined and distributed to the centralised group Algorand, and continues to be distributed to that same group through a distribution schedule).
 
 #### 4.1.4 Safety
 
