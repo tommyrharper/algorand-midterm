@@ -181,9 +181,9 @@ For the initial period of Algorand's history, the distribution was based mainly 
 ![](https://lh4.googleusercontent.com/hJ3TY7e21M-hV2XMMc1tu7IU3BIzRWyfAfg_uHadDhXkvEMsRroDPWOUDI0ozdagpBGCE1hPJbogwbAJ9O-_dVEZ83ibQhj6vOoxrV7TFfKzz9rfQIUkmIMEIl8U6dvpFZWc7IPPJq8Yv0716Kmbuf8)
 
 Since then, some of the main aspects have evolved:
--   The fixing of the circulating supply computation in September 2021 has aligned the definition of the circulating supply with the market standard with an increase of 1.6B Algo with no outflow.
--   The Algorithmic Vesting, with the feature of slowing down vesting while allowing accelerations based on market conditions, completed in October 2021. It has released 2.135B ALGO between the first significant acceleration in August 2020 and the completion of algorithmic vesting on October 6, 2021.
--   The remaining part of the Contingent Incentives has been allocated to fuel the ecosystem growth, which is now treated as a unique fund to strengthen economic and social activities.
+- The fixing of the circulating supply computation in September 2021 has aligned the definition of the circulating supply with the market standard with an increase of 1.6B Algo with no outflow.
+- The Algorithmic Vesting, with the feature of slowing down vesting while allowing accelerations based on market conditions, completed in October 2021. It has released 2.135B ALGO between the first significant acceleration in August 2020 and the completion of algorithmic vesting on October 6, 2021.
+- The remaining part of the Contingent Incentives has been allocated to fuel the ecosystem growth, which is now treated as a unique fund to strengthen economic and social activities.
 
 ### 2.2 Transaction Fees
 
@@ -213,10 +213,9 @@ The inaugural Algo auction was held on June 19, 2019, via a Dutch auction mechan
 
 According to Algorand, they believe that the market should determine the price, and the Dutch auction was selected because it achieves this fairness for two main reasons:
 
--   At the auction, everyone who buys an ALGO buys it at the same price.
-    
--   The market determines that price.
- 
+- At the auction, everyone who buys an ALGO buys it at the same price.
+- The market determines that price.
+
 Specifically, this is how the ALGO auctions work and the price discovery method:
 
 #### 2.5.1 Duration, Supply and Price
@@ -248,9 +247,8 @@ Because the amount of money committed never decreases and the price is always de
 
 The auction ends when (a) current demand meets or exceeds supply or (b) the reserve price is met.
 
--   If current demand exceeds supply, then bids will be fulfilled on a first-come first-serve basis.
-    
--   Upon auction completion, users can see how many Algos they received. Everyone who receives Algos will pay the same price per Algo, the “clearing price.”
+- If current demand exceeds supply, then bids will be fulfilled on a first-come first-serve basis.
+- Upon auction completion, users can see how many Algos they received. Everyone who receives Algos will pay the same price per Algo, the “clearing price.”
 ## 3. Governance
 
 ### 3.1 An Overview of the Collective Decision Making Process
