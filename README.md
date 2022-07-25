@@ -22,6 +22,8 @@ https://medium.com/insatiableminds/dissecting-algorand-e962f48f8c72#:~:text=The%
 
 https://www.youtube.com/watch?v=_u0lJsXky7Ys
 
+https://docs.google.com/document/d/1AYnBkQ09zGuc11h0e2ZHFqCfjh4ZJOeKUOUoAT3Qi3U/edit
+
 
 ## How to super and subscript
 
