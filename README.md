@@ -407,7 +407,7 @@ response = myindexer.search_transactions(min_amount=100)
 print(json.dumps(response, indent=2, sort_keys=True))
 ```
 
-Algod is one of two processes that nodes in algorand run. Algod is responsible for processing the protocol and interacting with SQLite to write records and implement REST API for reads.
+Algod is one of two processes that nodes in Algorand run. Algod is responsible for processing the protocol and interacting with SQLite to write records and implement REST API for reads.
 
 The other is KMD (Key Manager Daemon) which handles all interactions with spending keys, including signing transactions.
 
