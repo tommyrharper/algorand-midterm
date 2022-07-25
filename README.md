@@ -1,15 +1,17 @@
 
-<p align="center">University of Cambridge
-Polkadot Blockchain Academy 2022</p>
 
 # Midterm assignment: Analysis of Algorand's Whitepaper and Technological Stack
+
+
+<p align="center">University of Cambridge
+Polkadot Blockchain Academy 2022</p>
+<p align="center">Alexander Curtis, Felix Gate, Giulia Vieira, Jose Juan Sanz, Thomas Harper</p>
 
 ## Table of Contents
 
 - [Midterm assignment: Analysis of Algorand's Whitepaper and Technological Stack](#midterm-assignment-analysis-of-algorands-whitepaper-and-technological-stack)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-    - [Team members](#team-members)
     - [Our White Paper - Algorand](#our-white-paper---algorand)
     - [The core offerings of Algorand](#the-core-offerings-of-algorand)
     - [What does it allow users to do?](#what-does-it-allow-users-to-do)
@@ -75,14 +77,6 @@ Polkadot Blockchain Academy 2022</p>
   - [8. Bibliography](#8-bibliography)
 
 ## Introduction
-
-### Team members
-
-- Alexander Curtis
-- Felix Gate
-- Giulia Vieira
-- Jose Juan Sanz
-- Thomas Harper
 
 ### Our White Paper - Algorand
 
