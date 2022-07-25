@@ -52,8 +52,8 @@ Polkadot Blockchain Academy 2022</p>
     - [4.2 Protection against threats](#42-protection-against-threats)
       - [4.2.1 Byzantine Generals Problem](#421-byzantine-generals-problem)
       - [4.2.2 51% attack](#422-51-attack)
-      - [4.2.3. Sybil Attack](#423-sybil-attack)
-    - [4.3. Secure transactions](#43-secure-transactions)
+      - [4.2.3 Sybil Attack](#423-sybil-attack)
+    - [4.3 Secure transactions](#43-secure-transactions)
   - [5. Blockchain Structure](#5-blockchain-structure)
     - [5.1 State Transition Function](#51-state-transition-function)
       - [Payments](#payments)
@@ -329,11 +329,11 @@ With Algorands proof-of-stake consensus, it assumes that 66% or more of the netw
 
 Unlike the traditional proof-of-work that requires 51% of the hash power to commit an attack, with Algorands proof-of-stake only 33% of the node power is required to commit a similar attack. Algorand argues that the requirement to own $ALGO in order to commit such an attack, makes it safer, as you would have monetary losses for damaging “your own” network, as opposed to a miner attack, where the proof-of-work miners equipment has a much lower value correlation to the network. 
 
-#### 4.2.3. Sybil Attack
+#### 4.2.3 Sybil Attack
 
 Due to the permission-less account structure, Algorand does not appear to be resistant to Sybil attacks, past transactional costs.
 
-### 4.3. Secure transactions
+### 4.3 Secure transactions
 
 By choosing block producers randomly and secretly, and by having a forkless network, all transactions are final and secure in Algorand.
 ## 5. Blockchain Structure
