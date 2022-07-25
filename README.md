@@ -113,13 +113,11 @@ A digital signature scheme consists of three fast algorithms: a probabilistic ke
 
 In EdDSA that works as follows:
 
-In EdDSA that works as follows:
-
 ### 1.2.1 Key Generation
 
 Given the Finite Field Fq over odd prime power,
-Elliptic Curve E over Fq whose group of Fq E(Fq) = 2c ELL , where ELL is a large prime and 2c is called the cofactor;
-Base point B in E(Fq) with order ELL; and
+Elliptic Curve E over Fq whose group of Fq E(Fq) = 2c l , where l is a large prime and 2c is called the cofactor;
+Base point B in E(Fq) with order l; and
 Cryptographic hash function H with 2b-bit outputs, where 2b-1 > q so that elements of Fq and curve points in E(Fq) can be represented by strings of b bits.
 
 #### 1.2.1.1 Public Key
@@ -137,7 +135,7 @@ The as the public key is A = sB, where s= H0, ..., b-1(k) , private key is the l
 Given a message M, the EdDSA signature is the tuple (R,S) encoded in 2b bits, of a curve point R in E(Fq) where
 
 R = rB for r = H(s || M)
-S ≡ r + H(R || A || M)s (mod ELL)
+S ≡ r + H(R || A || M)s (mod l)
 
 ### 1.2.3 Verification
 
