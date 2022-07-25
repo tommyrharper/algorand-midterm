@@ -552,7 +552,7 @@ Our second major issue is token allocation. Algorand Inc control around as of 25
 
 ### 7.3 Attacking the Network
 
-Algorand is highly vulnerable to a denial of service attack due to its low transaction fees and limited throughput of 1000 transactions per second. Burning 1 algo per second allows for an effective DDOS attack, blocking all transactions. At £0.29 per algo, that’s £1,044 per hour, or £25,056 per day, or £751,680 per month, effectively providing total DDOS for a reasonably affordable price.
+Algorand is highly vulnerable to a denial of service attack due to its low transaction fees and limited throughput of 1000 transactions per second. With transaction fees of 0.001 Algo, burning 1 algo per second allows for an effective DDOS attack, blocking all transactions. At £0.29 per algo, that’s £1,044 per hour, or £25,056 per day, or £751,680 per month, effectively providing total DDOS for a reasonably affordable price.
 
 Another vulnerability in the Algorand ecosystem is the smart contracts which are primarily written in Python. Hence it is likely that there could be vulnerabilities in the ecosystem, due to the highly flexible and permissive nature of Python code.
 ## 8. Bibliography
