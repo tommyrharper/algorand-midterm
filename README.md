@@ -68,8 +68,8 @@ Polkadot Blockchain Academy 2022</p>
       - [Round 2-3 - Block Certification](#round-2-3---block-certification)
   - [7. Conclusion](#7-conclusion)
     - [7.1 How the cryptographic elements, the economic incentives and blockchain parameters all contribute to the core goals of this blockchain](#71-how-the-cryptographic-elements-the-economic-incentives-and-blockchain-parameters-all-contribute-to-the-core-goals-of-this-blockchain)
-      - [7.1.1 Environmental sustainability](#711-environmental-sustainability)
-      - [7.1.2 Scalability and transaction speed](#712-scalability-and-transaction-speed)
+      - [7.1.1 Environmental Sustainability](#711-environmental-sustainability)
+      - [7.1.2 Scalability and Transaction Speed](#712-scalability-and-transaction-speed)
       - [7.1.3 Decentralisation and Security](#713-decentralisation-and-security)
     - [7.2 Upsides](#72-upsides)
     - [7.3 Downsides](#73-downsides)
@@ -515,13 +515,13 @@ In this section we are going to discuss a few overall observations regarding Alg
 
 ### 7.1 How the cryptographic elements, the economic incentives and blockchain parameters all contribute to the core goals of this blockchain
 
-The 4 core goals of Algorand are environmental sustainability, scalability, decentralisation, security and transaction speed.
+The core goals of Algorand are environmental sustainability, scalability, decentralisation, security and transaction speed.
 
-#### 7.1.1 Environmental sustainability
+#### 7.1.1 Environmental Sustainability
 
-Achieved via the use of Proof of Stake rather than a Proof of Work consensus mechanism, as this allows Algorand to ope         rate with the use of minimal computing power. This means the network can reach a large scale without consuming excess energy.
+Achieved via the use of Proof of Stake rather than a Proof of Work consensus mechanism, as this allows Algorand to operate with the use of minimal computing power. This means the network can reach a large scale without consuming excess energy.
 
-#### 7.1.2 Scalability and transaction speed
+#### 7.1.2 Scalability and Transaction Speed
 
 Achieved through a number of mechanisms. Compact certificates are used to convince verifiers that a group of signers with sufficient total weight in terms of staked algo have signed a block without the verifier having to see or verify all the signatures. This leads to signatures 50-250x smaller and 300-4000x cheaper to verify than a standard approach, helping the Algorand blockchain to scale furiously as blocks are able to be verified at a faster rate. Another great feature of Algorand that helps to ensure fast transaction speeds is immediate finality, which is possible due to Algorands forkless nature.
 
@@ -532,7 +532,7 @@ Furthermore the threshold for committee lottery can be dynamically adapted to ad
 
 Cryptographic Sortition and VRFs (Variable Random Functions) as part of their consensus algorithm. This allows a random block proposer and committee to be chosen for any given block, even in spite of the presence of a powerful adversary who is able to corrupt any ⅓ of the stake weighted users in the system instantly at any given time and fully coordinate and control them. This is possible as the block proposer to only reveal their identity at the same time they propose the block. This means a given powerful attacker would not be able to corrupt the block proposer until after they had already shared the block, at which point it will be gossiped and validated by the ⅔ of honest users.
 
-One way Algorand attempts to ensure decentralisation is via the uses of virtually zero barrier to entry for users wanting to participate in the staking consensus mechanism, unlike many other blockchains, where it is necessary to either run your own node and/or meet a certain minimum financial requirement and/or lockup period in order to participate in the staking process. Only 1 algo is needed (currently about $0.35) is needed to participate. This economically incentivises a large user base to participate in the algorands consensus mechanism ensuring further decentralisation of the network.
+One way Algorand attempts to ensure decentralisation is via the uses of virtually zero barrier to entry for users wanting to participate in the staking consensus mechanism, unlike many other blockchains, where it is necessary to either run your own node and/or meet a certain minimum financial requirement and/or lockup period in order to participate in the staking process. Only 1 algo is needed (currently about $0.35) to participate. This economically incentivises a large user base to participate in the algorands consensus mechanism ensuring further decentralisation of the network.
 
 ### 7.2 Upsides
 
